@@ -95,7 +95,7 @@ header {
 
 #custom-card {
   background-color: #f8ffff87;
-  height: 440px;
+  height: 430px;
   border-left: 1px solid #c36d14bd;
   border-top: 1px solid #c36d14bd;
   border-top-left-radius: 20px;
@@ -144,7 +144,7 @@ header {
 }
 .card-body p {
   display: block;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -236,7 +236,7 @@ header {
 
 #custom-card2 p {
   display: block;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -293,6 +293,14 @@ footer {
   }
   .contact-right img {
     margin: 20px auto;
+  }
+
+  #custom-card2 h4 {
+    text-align: center;
+  }
+
+  #custom-card2 p {
+    text-align: center;
   }
 }
 
