@@ -107,6 +107,18 @@ header {
   margin-bottom: 20px;
 }
 
+#custom-card:hover {
+  transition: 0.9s;
+  border-right: 1px solid #c36d14bd;
+  border-bottom: 1px solid #c36d14bd;
+  border-left: none;
+  border-top: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 0px;
+}
+
 #custom-card .product-img {
   background-color: #f4fff8;
   border-top-left-radius: 20px;
@@ -198,6 +210,11 @@ header {
   box-shadow: 5px 5px 10px #4c3121cc;
   padding: 25px 10px;
   margin-bottom: 20px;
+}
+
+#custom-card2:hover {
+  box-shadow: none;
+  transition: 0.9s;
 }
 
 #custom-card2 img {
